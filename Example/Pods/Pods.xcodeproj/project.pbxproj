@@ -13,8 +13,8 @@
 		85AC52704E763CFFF85E8F181DA27ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		9986BF65F52B53EE41A7352B8136F01C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6A67E5C3CC439023B5473C2AEB6F7F /* ReplaceMe.swift */; };
 		9A5CA42A79316582D1312052135E2588 /* RateMyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E6F9602A062D75F07AEBB97E5DD5B0 /* RateMyApp-dummy.m */; };
-		C31E547222540A16001BFDEE /* RateMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E547122540A16001BFDEE /* RateMyApp.swift */; };
-		C31E547322540A16001BFDEE /* RateMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E547122540A16001BFDEE /* RateMyApp.swift */; };
+		C31E547222540A16001BFDEE /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E547122540A16001BFDEE /* UIViewController+Extension.swift */; };
+		C31E547322540A16001BFDEE /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E547122540A16001BFDEE /* UIViewController+Extension.swift */; };
 		C64640242EDA8B039EB007BEA57F5821 /* Pods-RateMyApp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A039F586C34B53FBB0F564FA7C00EF /* Pods-RateMyApp_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +43,7 @@
 		9337FD562E0D69C36ABE1F5E378B62F8 /* RateMyApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RateMyApp.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B706530F274A2230CC82FEBE3C17B748 /* Pods-RateMyApp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateMyApp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C31E547122540A16001BFDEE /* RateMyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyApp.swift; sourceTree = "<group>"; };
+		C31E547122540A16001BFDEE /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D1A039F586C34B53FBB0F564FA7C00EF /* Pods-RateMyApp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RateMyApp_Tests-dummy.m"; sourceTree = "<group>"; };
 		D8D2D3DFBF06CDC9A6F7263BE7900EA8 /* Pods-RateMyApp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RateMyApp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 				4C6A67E5C3CC439023B5473C2AEB6F7F /* ReplaceMe.swift */,
 				C62DEF1CC1C86F693BD8D221797DDD59 /* Pod */,
 				693CDC0B47C2A42FA0492B7FF8F1427E /* Support Files */,
-				C31E547122540A16001BFDEE /* RateMyApp.swift */,
+				C31E547122540A16001BFDEE /* UIViewController+Extension.swift */,
 			);
 			name = RateMyApp;
 			path = ../..;
@@ -294,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C64640242EDA8B039EB007BEA57F5821 /* Pods-RateMyApp_Tests-dummy.m in Sources */,
-				C31E547222540A16001BFDEE /* RateMyApp.swift in Sources */,
+				C31E547222540A16001BFDEE /* UIViewController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A5CA42A79316582D1312052135E2588 /* RateMyApp-dummy.m in Sources */,
-				C31E547322540A16001BFDEE /* RateMyApp.swift in Sources */,
+				C31E547322540A16001BFDEE /* UIViewController+Extension.swift in Sources */,
 				9986BF65F52B53EE41A7352B8136F01C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
