@@ -3,11 +3,9 @@
 import UIKit
 import StoreKit
 
-public final class RateMyApp  { // lets try
-    
-    static let `default` = RateMyApp()
-    
-    private func addRateAskerCounter()
+extension UIViewController{
+   
+     func addRateAskerCounter()
     {
         if UserDefaults.standard.value(forKey: "countOfRateAsks") == nil
         {
@@ -23,7 +21,7 @@ public final class RateMyApp  { // lets try
         }
         
     }
-    private func runRateAskerCounter()
+     func runRateAskerCounter()
     {
         let count = (UserDefaults.standard.value(forKey: "countOfRateAsks") as! Int)
         if (count == 5 || count == 25 || count == 50)
