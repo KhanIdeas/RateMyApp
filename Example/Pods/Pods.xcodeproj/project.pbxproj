@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405F83603A04764147DA626C9F7CC98C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		749CA62D7F58FAE37D5EA9569DB9D40C /* Pods-RateMyApp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 856683889357C81A72EB0486338A96AF /* Pods-RateMyApp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81600FA63E12E4C9CB9743602A10DF52 /* RateMyApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25250FDE6443BFFF591C424403EAE720 /* RateMyApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85AC52704E763CFFF85E8F181DA27ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9986BF65F52B53EE41A7352B8136F01C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6A67E5C3CC439023B5473C2AEB6F7F /* ReplaceMe.swift */; };
+		9A5CA42A79316582D1312052135E2588 /* RateMyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E6F9602A062D75F07AEBB97E5DD5B0 /* RateMyApp-dummy.m */; };
+		C31E547222540A16001BFDEE /* RateMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E547122540A16001BFDEE /* RateMyApp.swift */; };
+		C31E547322540A16001BFDEE /* RateMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E547122540A16001BFDEE /* RateMyApp.swift */; };
+		C64640242EDA8B039EB007BEA57F5821 /* Pods-RateMyApp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A039F586C34B53FBB0F564FA7C00EF /* Pods-RateMyApp_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C969CFD4C965F2683DCA61A53A071FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539CF55FC6E525133794CE74ECDEAE87;
+			remoteInfo = RateMyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13514F0F274E4D72DF0C2DBFA8AA122D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		25250FDE6443BFFF591C424403EAE720 /* RateMyApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateMyApp-umbrella.h"; sourceTree = "<group>"; };
+		476FBD0469ADAC5F036589A7D7EAFB26 /* Pods-RateMyApp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateMyApp_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C6A67E5C3CC439023B5473C2AEB6F7F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RateMyApp/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		52E6F9602A062D75F07AEBB97E5DD5B0 /* RateMyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RateMyApp-dummy.m"; sourceTree = "<group>"; };
+		5C96ECD24397ABD7D2FBC16A097D28FF /* Pods-RateMyApp_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RateMyApp_Tests-Info.plist"; sourceTree = "<group>"; };
+		60D802D5EF0CF034BB4B7C74C065CF55 /* RateMyApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateMyApp-prefix.pch"; sourceTree = "<group>"; };
+		68025CA4D99E3CE706F7EA3787549F17 /* RateMyApp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RateMyApp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		70AF2D73D919BD89B5F07F08A0532AB6 /* Pods-RateMyApp_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RateMyApp_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		820EC0F2954826AF36B76FC0C17EF67A /* Pods-RateMyApp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RateMyApp_Tests.modulemap"; sourceTree = "<group>"; };
+		856683889357C81A72EB0486338A96AF /* Pods-RateMyApp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RateMyApp_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9337FD562E0D69C36ABE1F5E378B62F8 /* RateMyApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RateMyApp.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B706530F274A2230CC82FEBE3C17B748 /* Pods-RateMyApp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateMyApp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C31E547122540A16001BFDEE /* RateMyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyApp.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1A039F586C34B53FBB0F564FA7C00EF /* Pods-RateMyApp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RateMyApp_Tests-dummy.m"; sourceTree = "<group>"; };
+		D8D2D3DFBF06CDC9A6F7263BE7900EA8 /* Pods-RateMyApp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RateMyApp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7434E91F2B4E8829043171EF7861911 /* RateMyApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RateMyApp-Info.plist"; sourceTree = "<group>"; };
+		F08F17F32B7234C8F15B7FE07E3CBE0F /* Pods-RateMyApp_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RateMyApp_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F0902C796F014FE6315D28F5E499244A /* Pods_RateMyApp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RateMyApp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19979C7C7331FBEBAEF3F5B735134DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F2602715EA18A2563F2B59340FED4523 /* RateMyApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RateMyApp.modulemap; sourceTree = "<group>"; };
+		FF7AD8DA863A79B16430FFC510ABCE28 /* RateMyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RateMyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EF9660D68F2B61EF8FD68B69AC48B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405F83603A04764147DA626C9F7CC98C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5287799E04465CD1F4826CC5D9648146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AC52704E763CFFF85E8F181DA27ADF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		693CDC0B47C2A42FA0492B7FF8F1427E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2602715EA18A2563F2B59340FED4523 /* RateMyApp.modulemap */,
+				9337FD562E0D69C36ABE1F5E378B62F8 /* RateMyApp.xcconfig */,
+				52E6F9602A062D75F07AEBB97E5DD5B0 /* RateMyApp-dummy.m */,
+				E7434E91F2B4E8829043171EF7861911 /* RateMyApp-Info.plist */,
+				60D802D5EF0CF034BB4B7C74C065CF55 /* RateMyApp-prefix.pch */,
+				25250FDE6443BFFF591C424403EAE720 /* RateMyApp-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RateMyApp";
+			sourceTree = "<group>";
+		};
+		87BAD047CD4776DABB51A9D145A42ED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0902C796F014FE6315D28F5E499244A /* Pods_RateMyApp_Tests.framework */,
+				FF7AD8DA863A79B16430FFC510ABCE28 /* RateMyApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C62DEF1CC1C86F693BD8D221797DDD59 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F19979C7C7331FBEBAEF3F5B735134DE /* LICENSE */,
+				68025CA4D99E3CE706F7EA3787549F17 /* RateMyApp.podspec */,
+				13514F0F274E4D72DF0C2DBFA8AA122D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CDC1387BF981D896AB9BB339BB4F4AFF /* Pods-RateMyApp_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				820EC0F2954826AF36B76FC0C17EF67A /* Pods-RateMyApp_Tests.modulemap */,
+				70AF2D73D919BD89B5F07F08A0532AB6 /* Pods-RateMyApp_Tests-acknowledgements.markdown */,
+				D8D2D3DFBF06CDC9A6F7263BE7900EA8 /* Pods-RateMyApp_Tests-acknowledgements.plist */,
+				D1A039F586C34B53FBB0F564FA7C00EF /* Pods-RateMyApp_Tests-dummy.m */,
+				F08F17F32B7234C8F15B7FE07E3CBE0F /* Pods-RateMyApp_Tests-frameworks.sh */,
+				5C96ECD24397ABD7D2FBC16A097D28FF /* Pods-RateMyApp_Tests-Info.plist */,
+				856683889357C81A72EB0486338A96AF /* Pods-RateMyApp_Tests-umbrella.h */,
+				B706530F274A2230CC82FEBE3C17B748 /* Pods-RateMyApp_Tests.debug.xcconfig */,
+				476FBD0469ADAC5F036589A7D7EAFB26 /* Pods-RateMyApp_Tests.release.xcconfig */,
+			);
+			name = "Pods-RateMyApp_Tests";
+			path = "Target Support Files/Pods-RateMyApp_Tests";
+			sourceTree = "<group>";
+		};
+		CDFB6DA1E18CD72F5F827F4FD1272046 /* RateMyApp */ = {
+			isa = PBXGroup;
+			children = (
+				4C6A67E5C3CC439023B5473C2AEB6F7F /* ReplaceMe.swift */,
+				C62DEF1CC1C86F693BD8D221797DDD59 /* Pod */,
+				693CDC0B47C2A42FA0492B7FF8F1427E /* Support Files */,
+				C31E547122540A16001BFDEE /* RateMyApp.swift */,
+			);
+			name = RateMyApp;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DF5A41E104EF83F6B2826E009B96A0DF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				87BAD047CD4776DABB51A9D145A42ED4 /* Products */,
+				FEA54A2BC479BAEFC9B9DD853B76F4D3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF5A41E104EF83F6B2826E009B96A0DF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDFB6DA1E18CD72F5F827F4FD1272046 /* RateMyApp */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FEA54A2BC479BAEFC9B9DD853B76F4D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC1387BF981D896AB9BB339BB4F4AFF /* Pods-RateMyApp_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12D5A0CE78967BFF9CF5446709968EA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749CA62D7F58FAE37D5EA9569DB9D40C /* Pods-RateMyApp_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72ACEC62F0242EF2974DA2F0F9F4BF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81600FA63E12E4C9CB9743602A10DF52 /* RateMyApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12CE84E6D4A675E886DCC547597DCBEF /* Pods-RateMyApp_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D10DFC4EB5CB03888683CB16FEE89E /* Build configuration list for PBXNativeTarget "Pods-RateMyApp_Tests" */;
+			buildPhases = (
+				12D5A0CE78967BFF9CF5446709968EA4 /* Headers */,
+				0922F4B359437CB9BC348EC65F931074 /* Sources */,
+				5287799E04465CD1F4826CC5D9648146 /* Frameworks */,
+				02B008C248A41814B1737BDEBC73686D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BD59E98F910664421A1033D6F947197 /* PBXTargetDependency */,
+			);
+			name = "Pods-RateMyApp_Tests";
+			productName = "Pods-RateMyApp_Tests";
+			productReference = F0902C796F014FE6315D28F5E499244A /* Pods_RateMyApp_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		539CF55FC6E525133794CE74ECDEAE87 /* RateMyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C289A1BFE4D7F5D4EACA67718DAC308E /* Build configuration list for PBXNativeTarget "RateMyApp" */;
+			buildPhases = (
+				B72ACEC62F0242EF2974DA2F0F9F4BF8 /* Headers */,
+				A0D025B4C47F2F04E1BA9D4823515851 /* Sources */,
+				0EF9660D68F2B61EF8FD68B69AC48B54 /* Frameworks */,
+				EEE11A51501472D0B5FABD53CC4FDD54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RateMyApp;
+			productName = RateMyApp;
+			productReference = FF7AD8DA863A79B16430FFC510ABCE28 /* RateMyApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					12CE84E6D4A675E886DCC547597DCBEF = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 87BAD047CD4776DABB51A9D145A42ED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12CE84E6D4A675E886DCC547597DCBEF /* Pods-RateMyApp_Tests */,
+				539CF55FC6E525133794CE74ECDEAE87 /* RateMyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B008C248A41814B1737BDEBC73686D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE11A51501472D0B5FABD53CC4FDD54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0922F4B359437CB9BC348EC65F931074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64640242EDA8B039EB007BEA57F5821 /* Pods-RateMyApp_Tests-dummy.m in Sources */,
+				C31E547222540A16001BFDEE /* RateMyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D025B4C47F2F04E1BA9D4823515851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5CA42A79316582D1312052135E2588 /* RateMyApp-dummy.m in Sources */,
+				C31E547322540A16001BFDEE /* RateMyApp.swift in Sources */,
+				9986BF65F52B53EE41A7352B8136F01C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BD59E98F910664421A1033D6F947197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RateMyApp;
+			target = 539CF55FC6E525133794CE74ECDEAE87 /* RateMyApp */;
+			targetProxy = 0C969CFD4C965F2683DCA61A53A071FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7741B6B8BF6FD5ECD3C6B7CBA68509B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B706530F274A2230CC82FEBE3C17B748 /* Pods-RateMyApp_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RateMyApp_Tests/Pods-RateMyApp_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RateMyApp_Tests/Pods-RateMyApp_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A4FEA64956AD78ACBD5E5C1E3F1367D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476FBD0469ADAC5F036589A7D7EAFB26 /* Pods-RateMyApp_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RateMyApp_Tests/Pods-RateMyApp_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RateMyApp_Tests/Pods-RateMyApp_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B48E4833EC55457AA18092B9E9B6240A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9337FD562E0D69C36ABE1F5E378B62F8 /* RateMyApp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RateMyApp/RateMyApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RateMyApp/RateMyApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RateMyApp/RateMyApp.modulemap";
+				PRODUCT_MODULE_NAME = RateMyApp;
+				PRODUCT_NAME = RateMyApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBCAA8EEF041D3B281C91C5B52B5DF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9337FD562E0D69C36ABE1F5E378B62F8 /* RateMyApp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RateMyApp/RateMyApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RateMyApp/RateMyApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RateMyApp/RateMyApp.modulemap";
+				PRODUCT_MODULE_NAME = RateMyApp;
+				PRODUCT_NAME = RateMyApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C289A1BFE4D7F5D4EACA67718DAC308E /* Build configuration list for PBXNativeTarget "RateMyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCAA8EEF041D3B281C91C5B52B5DF28 /* Debug */,
+				B48E4833EC55457AA18092B9E9B6240A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D10DFC4EB5CB03888683CB16FEE89E /* Build configuration list for PBXNativeTarget "Pods-RateMyApp_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7741B6B8BF6FD5ECD3C6B7CBA68509B7 /* Debug */,
+				9A4FEA64956AD78ACBD5E5C1E3F1367D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

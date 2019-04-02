@@ -1,0 +1,22 @@
+{
+  "name": "RateMyApp",
+  "version": "0.1.0",
+  "summary": "A short description of RateMyApp.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/KhanIdeas/RateMyApp",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KhanIdeas": "ishx.gevorgyan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/KhanIdeas/RateMyApp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RateMyApp/Classes/**/*"
+}

@@ -1,5 +1,4 @@
 import XCTest
-import RateMyApp
 
 class Tests: XCTestCase {
     

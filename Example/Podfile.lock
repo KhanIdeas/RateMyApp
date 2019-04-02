@@ -1,0 +1,16 @@
+PODS:
+  - RateMyApp (0.1.0)
+
+DEPENDENCIES:
+  - RateMyApp (from `../`)
+
+EXTERNAL SOURCES:
+  RateMyApp:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RateMyApp: 2e205141bd1e32a0443999c3774c25b109a016be
+
+PODFILE CHECKSUM: 4f9b14fb6d8f53fe6ea677dff1a7c4b30c8d1914
+
+COCOAPODS: 1.6.0
