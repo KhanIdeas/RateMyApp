@@ -109,6 +109,7 @@
 		C62DEF1CC1C86F693BD8D221797DDD59 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				C31E547122540A16001BFDEE /* UIViewController+Extension.swift */,
 				F19979C7C7331FBEBAEF3F5B735134DE /* LICENSE */,
 				68025CA4D99E3CE706F7EA3787549F17 /* RateMyApp.podspec */,
 				13514F0F274E4D72DF0C2DBFA8AA122D /* README.md */,
@@ -139,7 +140,6 @@
 				4C6A67E5C3CC439023B5473C2AEB6F7F /* ReplaceMe.swift */,
 				C62DEF1CC1C86F693BD8D221797DDD59 /* Pod */,
 				693CDC0B47C2A42FA0492B7FF8F1427E /* Support Files */,
-				C31E547122540A16001BFDEE /* UIViewController+Extension.swift */,
 			);
 			name = RateMyApp;
 			path = ../..;
