@@ -3,7 +3,7 @@
 import UIKit
 import StoreKit
 
-public final class RateMyApp  {
+public final class RateMyApp  { // lets try
     
     static let `default` = RateMyApp()
     
