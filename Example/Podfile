@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RateMyApp_Tests' do
+  pod 'RateMyApp', :path => '../'
+  
+  
+end
