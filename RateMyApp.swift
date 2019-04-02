@@ -3,9 +3,9 @@
 import UIKit
 import StoreKit
 
-extension UIViewController{
+public extension UIViewController{
    
-     func addRateAskerCounter()
+    public func addRateAskerCounter()
     {
         if UserDefaults.standard.value(forKey: "countOfRateAsks") == nil
         {
@@ -21,7 +21,7 @@ extension UIViewController{
         }
         
     }
-     func runRateAskerCounter()
+    public func runRateAskerCounter()
     {
         let count = (UserDefaults.standard.value(forKey: "countOfRateAsks") as! Int)
         if (count == 5 || count == 25 || count == 50)
